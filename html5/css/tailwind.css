@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+    background-color: #e67635;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    box-shadow: rgba(230,118,53,.5) 0 5px 20px 3px;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    fill: #fff;
+    font-family: Muli,sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.5em;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition-delay: 0s;
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+@tailwind utilities;
