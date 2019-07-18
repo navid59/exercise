@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 
-.btn {
+.btn-test {
     background-color: #e67635;
     border: 1px solid transparent;
     border-radius: 30px;
